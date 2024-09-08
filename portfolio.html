@@ -5,9 +5,10 @@
         <title>My Professional Portfolio</title>
         <meta charset="UTF-8">
         <meta nam="viewport" content="width=device-width", initial-scale="1.0">
-        <meta name="description" content="Portfolio of a passionate software engineer that focused more on backend development">
+        <meta name="description" content="Portfolio of a passionate software engineer">
         <link rel="stylesheet" href="css/all.min.css">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="static/css/portfolio.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
         <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
     </head>
     <body>
@@ -15,40 +16,203 @@
             <!-- Sidebar -->
             <aside class="sidebar">
                 <div class="profile">
-                    <img src="static/images/sulaimon.jpg" alt="Engineer picture">
+                    <img src="static/images/sulaimon.jpg" alt="Engineer picture" class="profile-picture">                
+
+                    <div class="title">
+                        <p>
+                            <a href="index.html"><strong>Olayiwola Sualimon</strong></a> <br> Software Engineer
+                        </p>
+                    </div>
 
                     <nav>
                         <ul>
-                            <li><a href="#">About Me</a></li>
-                            <li><a href="#">Programming Languages</a></li>
-                            <li><a href="#">Educational Background</a></li>
-                            <li><a href="#">Interests</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="index.html"><i class="fas fa-home icon"></i>Home</a></li>
+                            <li><a href="#top"><i class="fas fa-user icon"></i>About Me</a></li>
+                            <li><a href="#skills"><i class="fas fa-code icon"></i>Programming Skills</a></li>
+                            <li><a href="#education"><i class="fas fa-graduation-cap icon"></i>Education</a></li>
+                            <li><a href="#interests"><i class="fas fa-heart icon"></i>Interests</a></li>
+                            <li><a href="#projects"><i class="fas fa-project-diagram icon"></i>Projects</a></li>
+                            <li><a href="#contact"><i class="fas fa-envelope icon"></i>Contact</a></li>
                         </ul>
                     </nav>
 
-                    <footer>
+                    <footer class="aside-footer">
                         <ul class="social-icons">
-                            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
-                            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-                            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://github.com/Solayiwo" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/olayiwola-sulaimon/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/shinar930" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/solayiwo/" target="_blank"><i class="fab fa-instagram"></i></a>
                         </ul>
                     </footer>
                 </div>
-
             </aside>
 
             <!-- Main Content-->
             <main class="main-content">
+                <!-- About Section -->
+                <section id="top">
+                    <div class="section-A">
+                        <div class="heading">
+                            <h1>About Me</h1>
+                        </div>
+                        <p>
+                            Hi! I'm <strong>Olayiwola Sulaimon.</strong> A Software Engineer passionate about building
+                            efficient and scalable web applications. I enjoy working with Django framework, along with
+                            PostgreSQL for database management. Currently, I'm working on a project involving image 
+                            compression, API development, and backend authentication systems to ensure security and
+                            smooth interactions between the backend and frontend. I'm driven by a desire to solve
+                            complex problems with a keen eye on performance, security, and functionality in order
+                            to meet high standards of information security and user experience.
+                        </p>
+                    </div>
+                </section>
 
+                <!-- Programming Languages Section -->
+                <section id="skills">
+                    <div class="heading">
+                        <h2>Programming Languages | Frameworks | Tools</h2>
+                    </div>
+                    <div class="two-column-section">
+                        <div>
+                            <ul>
+                                <li>
+                                    <i class="devicon-c-plain colored icon"></i> C
+                                    <progress value="50" max="100"/>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-python-plain colored icon"></i> Python
+                                    <progress value="50" max="100"/>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-javascript-plain colored icon"></i> JavaScript
+                                    <progress value="50" max="100"/>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-html5-plain colored icon"></i> HTML
+                                    <progress value="50" max="100"/>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-css3-plain colored icon"></i> CSS
+                                    <progress value="50" max="100"/>
+                                </li>
+
+                                <li></li>
+                                    <i class="devicon-vscode-plain colored icon"></i> VS Code
+                                    <progress value="50" max="100"/>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul>
+                                <li>
+                                    <i class="devicon-django-plain colored icon"></i> Django
+                                    <progress value="50" max="100"/>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-jquery-plain colored icon"></i> jQuery
+                                    <progress value="50" max="100"/>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-sqlite-plain colored icon"></i> SQLite
+                                    <progress value="50" max="100"/>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-mysql-plain colored icon"></i> MySQL
+                                    <progress value="50" max="100"/>
+                                </li>
+
+                                <li>
+                                    <i class="devicon-postgresql-plain colored icon"></i> PostgreSQL
+                                    <progress value="50" max="100"/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Educational Background Section -->
+                <section id="education">
+                    <div class="heading">
+                        <h2>Educational Background</h2>
+                    </div>
+                    <p>Electrical Engineering at Yaba College of Technology</p>
+                    <p>Certificate Awarded: National Diploma</p>
+                    <a href="#" class="download-btn">Download My CV</a>
+                </section>
+
+                <!-- Interests Section -->
+                <section id="interests">
+                    <div class="heading">
+                        <h2>Interests</h2>
+                    </div>
+                    <dl>
+                        <dt><strong>Electronic and Embedded Systems:</strong></dt>
+                        <dd>
+                            I have a deep passion for electronics and embedded systems. I'm fascinated by how hardware and software 
+                            interact, driving my interest in embedded systems. I enjoy designing and working with microcontroller
+                            and embedded devices, creating innovative solutions that integrate seamlessly with real-world applications.
+                        </dd> <br>
+
+                        <dt><strong>Software Engineering:</strong></dt>
+                        <dd>
+                            As a software engineer, I love researching and exploring in order to building efficient and scalable web
+                            applications. I enjoy crafting APIs, optimizing performance, and working with Django frameworks to
+                            deliver impactful web services.                    
+                        </dd> <br>
+                        
+                        <dt><strong>Information Security:</strong></dt>
+                        <dd>
+                            Security is at the core of my interests right from the beginning of tech journey. I am driven by a strong
+                            commitment to know how the internet and the backend works in order to safeguard systems, data, and
+                            applications.
+                        </dd>
+                    </dl>
+                </section>
+
+                <!-- Projects Section -->
+                <section id="projects">
+                    <div class="heading">
+                        <h2>Projects</h2>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Solayiwo/image-compression-algorithm" target="_blank" class="projects">Image Compression Web Service</a> - A Django-based web
+                            app for compressing images using lossless and lossy algorithms.
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Contact Section -->
+                <section id="contact">
+                    <div class="heading">
+                        <h2>Contact Me</h2>
+                    </div>
+                    <form action="#" method="post">
+                        <label for="name">Name</label> <br>
+                        <input type="text" id="name" name="name" required> <br><br>
+
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" required> <br><br>
+                        
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </section>
+
+                <footer class="footer">
+                    <p>&copy; Design: Solam_tech</p>
+                </footer>
             </main>
-            
-
-            <footer>
-                <p>&copy; Design: Solam_tech</p>
-            </footer>
         </div>
     </body>
 </html>
