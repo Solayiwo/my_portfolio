@@ -23,7 +23,7 @@
     - Downloadable CV: Visitors can download my CV directly from the portfolio.
     - Contact Form: A functional contact form allows visitors to send messages.
 
-How to Use
+## How to Use
 
     - Clone the repository:
     ```code
@@ -33,4 +33,4 @@ How to Use
     ```code
     cd my_portfolio
 
-    -Open the index.html file in your browser to view the portfolio.
+    - Open the index.html file in your browser to view the portfolio.
