@@ -23,12 +23,6 @@
 - Downloadable CV: Visitors can download my CV directly from the portfolio.
 - Contact Form: A functional contact form allows visitors to send messages.
 
-## How to Use
+## Contact
 
-- Clone the repository:
-    git clone https://github.com/Solayiwo/my_portfolio.git
-
-- Navigate to the project directory:
-    cd my_portfolio
-
-- Open the index.html file in your browser to view the portfolio.
+For any inquiries or collaboration opportunities, you can contact me via the Contact Form on the portfolio or reach out through my social media.
